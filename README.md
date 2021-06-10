@@ -22,6 +22,7 @@ Changes:
    
 These are the SQL scripts shown in the video.
 
+```
 select * from user;
 
 select * from batch_job_execution;
@@ -29,3 +30,4 @@ select * from batch_job_execution_context;
 
 select * from batch_step_execution;
 select * from batch_step_execution_context;
+```
