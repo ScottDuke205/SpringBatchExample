@@ -8,10 +8,11 @@ This is an updated version of:
 
 Built using:
 1. Intellij Idea: v2021.2
-2. Spring Framework: v2.5.0
-3. Lombok
-4. Gradle
-5. Java 16
+2. Spring Boot: v2.5.0
+3. Spring Batch
+4. Lombok
+5. Gradle
+6. Java 16
 
 Changes:
 1. SpringBatchConfig.java - Fixed the itemReader method. Using ClassPathResource rather than Rsource.
