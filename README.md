@@ -11,7 +11,7 @@ Built using:
 2. Spring Framework: v2.5.0
 3. Lombok
 4. Gradle
-5. 
+5. Java 16
 
 Changes:
 1. SpringBatchConfig.java - Fixed the itemReader method. Using ClassPathResource rather than Rsource.
