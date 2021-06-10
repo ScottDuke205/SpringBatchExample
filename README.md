@@ -3,8 +3,8 @@ Spring Batch in Spring Boot | CSV to Database | Tech Primers
 
 
 This is an updated version of:
-GitHub: https://github.com/TechPrimers/spring-batch-example-1
-YouTube: https://www.youtube.com/watch?v=1XEX-u12i0A
+1. GitHub: https://github.com/TechPrimers/spring-batch-example-1
+2. YouTube: https://www.youtube.com/watch?v=1XEX-u12i0A
 
 Built using:
 1. Intellij Idea: v2021.2
