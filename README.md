@@ -20,6 +20,10 @@ Changes:
    a. Added the H2 database definitions to matched the ones shown in the video.
    b. Chanded input=file:users.csv to input=users.csv.
    
+Access using browser:
+1. H2 - localhost:8081/h2-console
+2. load data - localhost:8081/load
+   
 These are the SQL scripts shown in the video.
 
 ```
