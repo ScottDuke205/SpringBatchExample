@@ -61,7 +61,11 @@ public class SpringBatchConfig {
 
         lineTokenizer.setDelimiter(",");
         lineTokenizer.setStrict(false);
+
+        // Only use the column names from CSV file being imported.
         lineTokenizer.setNames(new String[] {"id", "name", "dept", "salary"});
+        // If a column is being skipped from import, the next line is needed to identify the column number.
+        lineTokenizer.setIncludedFields(new int[]{0, 1, 3, 4});
 
         BeanWrapperFieldSetMapper<User> fieldSetMapper = new BeanWrapperFieldSetMapper<>();
         fieldSetMapper.setTargetType(User.class);
