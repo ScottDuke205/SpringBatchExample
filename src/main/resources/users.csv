@@ -1,6 +1,6 @@
-id,name,dept,salary
-1,Peter,001,12000
-2,Sam,002,13000
-3,Ryan,003,10000
-4,Tex,001,20000
-5,Luna,001,40000
+id,name,type,dept,salary
+1,Peter,A,001,12000
+2,Sam,B,002,13000
+3,Ryan,A,003,10000
+4,Tex,B,001,20000
+5,Luna,A,001,40000
