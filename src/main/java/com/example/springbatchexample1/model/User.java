@@ -1,13 +1,17 @@
 package com.example.springbatchexample1.model;
 
+import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.Getter;
+import lombok.NoArgsConstructor;
 
 import javax.persistence.Entity;
 import javax.persistence.Id;
 import java.util.Date;
 
 @Data
+@AllArgsConstructor
+@NoArgsConstructor
 @Entity
 public class User {
 
@@ -18,14 +22,4 @@ public class User {
     private Integer salary;
     private Date datetime;
 
-    public User() {
-    }
-
-    public User(Integer id, String name, String dept, Integer salary, Date datetime) {
-        this.id = id;
-        this.name = name;
-        this.dept = dept;
-        this.salary = salary;
-        this.datetime = datetime;
-    }
 }
